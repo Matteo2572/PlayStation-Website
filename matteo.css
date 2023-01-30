@@ -16,6 +16,8 @@
     z-index: 999;
 }*/
 
+
+
 .carousel-inner {
     padding-bottom: 150px;
 }
@@ -71,15 +73,45 @@
     padding: 10px;
 }
 
+
 #mid-carousel{
     padding-top: 100px;
 }
+
  .imm-PSPlus-back img{
     height: 555px;
     width: 100%;
  }
 
- .imm-PSPlus .imm-PSPlus-back .imm-PSPlus-top{
-    height: 515px;
-    width: 440px;
+ .imm-PSPlus-top{
+    display: flex;
+    margin-left: 70px;
  }
+
+ .imm-PSPlus .imm-PSPlus-back .imm-PSPlus-top img{
+    height: 480px;
+    width: 550px;
+ }
+
+ .month-PS img{
+    max-width: 100%;
+ }
+
+ .gow-img img{
+    max-width: 100%;
+ }
+
+ .button-red a span{
+    background-color: red;
+    position: relative;
+    text-align: center;
+    border-radius: 2em;
+    margin: 0;
+    color: white;
+    font-weight: 600;
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+}
