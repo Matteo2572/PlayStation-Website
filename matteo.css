@@ -10,13 +10,33 @@
     max-width: 75px;
 }
 
-/*.navbar ul{
-    position: fixed;
-    top: 0;
-    z-index: 999;
-}*/
+.container-ricerca {
+    display: flex;
+    float: right;
+}
 
 
+.button-form {
+    background-color: rgb(0, 112, 204, 1);
+    position: relative;
+    text-align: center;
+    border-radius: 2em;
+    margin: 0;
+    color: white;
+    font-weight: 500;
+    padding: 6px;
+
+}
+
+button .ricerca {
+    display: flex;
+    box-shadow: none;
+    align-self: center;
+    width: auto;
+    padding: 10px;
+    border: 1px solid;
+
+}
 
 .carousel-inner {
     padding-bottom: 150px;
@@ -46,7 +66,7 @@
     max-height: 500px;
 }
 
-.bottom-carousel img{
+.bottom-carousel img {
     max-width: 900px;
     height: auto;
 }
@@ -60,10 +80,10 @@
 .bottom-carousel-text h3 {
     margin-top: 20px;
     padding: 30px;
-} 
+}
 
-.button a span{
-    background-color: rgb(0, 112, 204,1);
+.button a span {
+    background-color: rgb(0, 112, 204, 1);
     position: relative;
     text-align: center;
     border-radius: 2em;
@@ -74,34 +94,42 @@
 }
 
 
-#mid-carousel{
+#mid-carousel {
     padding-top: 100px;
 }
 
- .imm-PSPlus-back img{
+.imm-PSPlus-back img {
     height: 555px;
     width: 100%;
- }
+}
 
- .imm-PSPlus-top{
+.imm-PSPlus-top {
     display: flex;
     margin-left: 70px;
- }
+}
 
- .imm-PSPlus .imm-PSPlus-back .imm-PSPlus-top img{
+.imm-PSPlus .imm-PSPlus-back .imm-PSPlus-top img {
     height: 480px;
     width: 550px;
- }
+}
 
- .month-PS img{
+.month-PS img {
     max-width: 100%;
- }
+}
 
- .gow-img img{
+.gow-img img {
     max-width: 100%;
- }
+}
 
- .button-red a span{
+.gow-logo{
+    position: absolute;
+    top: 200px;
+    left: 150px;
+    width: 420px;
+    color: white;
+}
+
+.button-red a span {
     background-color: red;
     position: relative;
     text-align: center;
@@ -112,6 +140,39 @@
     padding: 10px;
 }
 
-a{
+a {
     text-decoration: none;
+}
+
+.new-Real {
+    max-width: 100%;
+    max-height: 625px;
+    position: relative;
+
+}
+
+.new-Real img {
+    width: 100%;
+
+}
+
+.new-Real-text {
+    display: block;
+    position: absolute;
+    top: 200px;
+    color: white;
+    left: 170px;
+    width: 590px;
+    padding: 40px;
+}
+
+.button-white a span {
+    background-color: white;
+    position: relative;
+    text-align: center;
+    border-radius: 2em;
+    margin: 0;
+    color: black;
+    font-weight: 600;
+    padding: 10px;
 }
