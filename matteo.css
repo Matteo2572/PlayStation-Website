@@ -8,11 +8,36 @@
 
 .logo img {
     max-width: 75px;
+    margin-right: 10px;
+}
+
+nav ul li {
+    padding: 0px 12px;
 }
 
 .container-ricerca {
     display: flex;
     float: right;
+}
+
+.container-ricerca .button-form {
+    margin-right: 15px;
+}
+
+.container-ricerca .ricerca-form {
+    width: 130px;
+    height: 40px;
+}
+
+.container-ricerca .ricerca-form .ricerca {
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    border-style: solid;
+    border-width: 1px;
+    background-color: white;
+    color: #1F1F1F;
+    font-weight: 400;
 }
 
 
@@ -24,7 +49,7 @@
     margin: 0;
     color: white;
     font-weight: 500;
-    padding: 6px;
+    padding: 0px 15px;
 
 }
 
@@ -75,8 +100,10 @@ button .ricerca {
 
 .bottom-carousel-text {
     text-align: left;
-    max-width: 400px;
+    max-width: 550px;
+    padding: 100px 0px;
 }
+
 
 .bottom-carousel-text h3 {
     margin-top: 20px;
@@ -114,10 +141,36 @@ button .ricerca {
     width: 550px;
 }
 
+.content-grid {
+    height: 370px;
+    position: absolute;
+}
+
 .bc-psmonth {
     background-color: #26254f;
     min-height: 810px;
 }
+
+.month-PS-text {
+    text-align: left;
+    max-width: 650px;
+    color: white;
+    top: 50px;
+    position: absolute;
+    margin-left: 225px;
+}
+
+.month-PS-text .button a span {
+    background-color: white;
+    position: relative;
+    text-align: center;
+    border-radius: 2em;
+    margin: 0;
+    color: black;
+    font-weight: 600;
+    padding: 10px;
+}
+
 
 .month-PS .month-PS-bg img {
     max-width: 100%;
@@ -125,29 +178,29 @@ button .ricerca {
 
 .grid-img {
     display: grid;
-    grid-template-columns: 32% 32% 32% ;
+    grid-template-columns: 32% 32% 32%;
     padding: 0px 200px;
     justify-content: space-between;
     margin-block-start: -10rem;
 }
 
-.grid-img .box{
+.grid-img .box {
     padding: 20px;
 }
 
-.grid-img .box .imageblock{
+.grid-img .box .imageblock {
     max-width: 380px;
     max-height: 210px;
 }
 
-.grid-img .box .imageblock img{
+.grid-img .box .imageblock img {
     width: 100%;
     height: 100%;
     border-radius: 25px;
     text-shadow: 2px 2px 10px;
 }
 
-.grid-img .box .textblock{
+.grid-img .box .textblock {
     padding-top: 30px;
 }
 
