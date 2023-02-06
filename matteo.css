@@ -1,3 +1,4 @@
+/*----------Barra Sony----------*/
 .logo {
     background-color: #000;
     min-height: 36px;
@@ -10,6 +11,8 @@
     max-width: 75px;
     margin-right: 10px;
 }
+
+/*----------Navbar----------*/
 
 nav ul li {
     padding: 0px 12px;
@@ -126,6 +129,8 @@ button .ricerca {
     padding-top: 100px;
 }
 
+/*----------PS Plus----------*/
+
 .imm-PSPlus-back img {
     height: 555px;
     width: 100%;
@@ -140,6 +145,8 @@ button .ricerca {
     height: 480px;
     width: 550px;
 }
+
+/*----------Month PS----------*/
 
 .content-grid {
     height: 370px;
@@ -204,6 +211,7 @@ button .ricerca {
     padding-top: 30px;
 }
 
+/*----------GOW----------*/
 
 .gow-img img {
     max-width: 100%;
@@ -231,6 +239,54 @@ button .ricerca {
 a {
     text-decoration: none;
 }
+
+/*----------Grid Game----------*/
+
+.container-grid-game {
+    width: 100%;
+    height: 680px;
+    background-color: #121314;
+}
+
+.grid-game-header {
+    width: 1272px;
+    height: 93px;
+    color: white;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.grid-game-header h3 {
+    height: 60px;
+    width: 100%;
+    padding-top: 25px;
+}
+
+.grid-game-header h5 {
+    height: 25px;
+    width: 100%;
+}
+
+.grid-game{
+    margin-top: 50px;
+}
+
+.game{
+    padding: 20px;
+}
+
+.game img{
+    width: 185px;
+    height: 185px;
+    border-radius: 5px;
+}
+
+.game .testo{
+    color: white;
+}
+
+
+/*----------New Real----------*/
 
 .new-Real {
     max-width: 100%;
