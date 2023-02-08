@@ -155,7 +155,7 @@ button .ricerca {
 
 .bc-psmonth {
     background-color: #26254f;
-    min-height: 810px;
+    min-height: 740px;
 }
 
 .month-PS-text {
@@ -164,7 +164,7 @@ button .ricerca {
     color: white;
     top: 50px;
     position: absolute;
-    margin-left: 225px;
+    margin-left: 200px;
 }
 
 .month-PS-text .button a span {
@@ -244,7 +244,7 @@ a {
 
 .container-grid-game {
     width: 100%;
-    height: 680px;
+    height: 720px;
     background-color: #121314;
 }
 
@@ -267,22 +267,23 @@ a {
     width: 100%;
 }
 
-.grid-game{
+.grid-game {
     margin-top: 50px;
 }
 
-.game{
+.game {
     padding: 20px;
 }
 
-.game img{
+.game img {
     width: 185px;
     height: 185px;
-    border-radius: 5px;
+    border-radius: 8px;
 }
 
-.game .testo{
+.game .testo {
     color: white;
+    padding: 5px;
 }
 
 
@@ -320,3 +321,117 @@ a {
     font-weight: 600;
     padding: 10px;
 }
+
+/*----------Explore----------*/
+.explorePS {
+    width: 100%;
+    height: 240px;
+}
+
+.explorePS .explore-box {
+    width: 100%;
+    height: 125px;
+    text-align: center;
+}
+
+.explorePS .explore-box .explore-text {
+    width: 870px;
+    height: 125px;
+    margin: auto;
+    padding-top: 40px;
+}
+
+.explorePS .explore-box .explore-text h2 {
+    width: 870px;
+    height: 50px;
+    font-weight: 300;
+    color: #000;
+    font-size: 39px;
+}
+
+.explorePS .explore-box .explore-text p {
+    width: 870px;
+    height: 60px;
+    padding: 0px 20px;
+    color: #212529;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+/*----------Column3----------*/
+.column3 {
+    width: 100%;
+    height: 470px;
+}
+
+.column3 .grid-img {
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    padding: 10px 200px;
+    justify-content: space-between;
+    margin-block-start: 0rem;
+
+}
+
+/*----------PS Store----------*/
+.ps-store {
+    width: 100%;
+    height: 492px;
+}
+
+.ps-store .grid-store {
+    height: 100%;
+    width: 1320px;
+    display: flex;
+    margin: 0px 172px 64px ;
+}
+
+.ps-store .grid-store .store-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 24px;
+    width: 400px;
+}
+
+.ps-store .grid-store .store-text h2{
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+.ps-store .grid-store .store-text p{
+    color: #6B6B6B;
+    font-weight: 400;
+    margin-top: 15px;
+}
+
+.button-orange{
+    margin-top: 15px;
+}
+
+.button-orange a span {
+    background-color: #d53b00;
+    position: relative;
+    text-align: center;
+    border-radius: 2em;
+    margin: 0;
+    color: white;
+    font-weight: 600;
+    padding: 10px;
+}
+
+
+.ps-store .grid-store .store-img img {
+    height: 450px;
+    width: 800px;
+    border-radius: 20px;
+}
+
+.white{
+    height: 50px;
+    width: 100%;
+    background-color: white;
+}
+
+/*----------Clothes----------*/
+
