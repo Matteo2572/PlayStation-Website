@@ -124,6 +124,11 @@ button .ricerca {
     padding: 10px;
 }
 
+.button a span:hover {
+    outline-offset: 2px;
+    outline: 2px solid #0073c7;
+}
+
 
 #mid-carousel {
     padding-top: 100px;
@@ -176,6 +181,12 @@ button .ricerca {
     color: black;
     font-weight: 600;
     padding: 10px;
+}
+
+
+.month-PS-text .button a span:hover {
+    outline-offset: 2px;
+    outline: 2px solid white;
 }
 
 
@@ -234,6 +245,11 @@ button .ricerca {
     color: white;
     font-weight: 600;
     padding: 10px;
+}
+
+.button-red a span:hover {
+    outline-offset: 2px;
+    outline: 2px solid red;
 }
 
 a {
@@ -321,6 +337,12 @@ a {
     font-weight: 600;
     padding: 10px;
 }
+
+.button-white a span:hover {
+    outline-offset: 2px;
+    outline: 2px solid white;
+}
+
 
 /*----------Explore----------*/
 .explorePS {
@@ -420,6 +442,10 @@ a {
     padding: 10px;
 }
 
+.button-orange a span:hover {
+    outline-offset: 2px;
+    outline: 2px solid #d53b00;
+}
 
 .ps-store .grid-store .store-img img {
     height: 450px;

@@ -1,0 +1,54 @@
+/* <!-- section social media  --> */
+#sect-social {
+    padding-top: 40px;
+    padding-bottom: 90px;
+}
+
+.w_img {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* footer-list  */
+#footer-list {
+    background-color: #00439C;
+}
+
+.w-logo {
+    width: 90px;
+}
+
+.language {
+    width: 20px;
+}
+
+.sie_w img {
+    width: 120px;
+}
+
+.f_style {
+    font-weight: 600;
+}
+
+.social{
+    width: 100%;
+    height: 374px;
+    background-color: #f5f7fa;
+}
+
+.social-content{
+   padding-top: 100px;
+}
+.text-social h3{
+    font-weight: 300;
+    text-align: center;
+}
+
+.container-social{
+    display: flex;
+    justify-content: center;
+}
+
+.container-social .img-social{
+    padding: 35px;
+}
