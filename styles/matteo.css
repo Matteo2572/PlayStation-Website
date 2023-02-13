@@ -569,7 +569,13 @@ a {
 }
 
 .content-novità .grid-novità .grid-img-novità .box-novità{
-    max-height: 555px;
+    min-height: 555px;
     max-width: 490px;
     border-radius: 16px;
+}
+
+.content-novità .grid-novità .grid-img-novità .box-novità .textblock h4{
+    color: black;
+    font-size: 20px;
+    font-weight: 300;
 }
