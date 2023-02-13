@@ -595,3 +595,17 @@ a {
     font-size: 14px;
     margin: 0px 0px 24px;
 }
+
+.robe-novità{
+    display: flex;
+    height: 54px;
+}
+
+.box-novità .robe-novità .text-robe{
+    line-height: normal;
+}
+
+.box-novità .robe-novità .text-robe p{
+    height: 18px;
+    font-size: 12px;
+}
