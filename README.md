@@ -1,4 +1,4 @@
-PlayStation Website Project
+PlayStation Static Website Project
 
 Pages:
         - index.html
