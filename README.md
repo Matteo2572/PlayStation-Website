@@ -5,5 +5,6 @@ Pages:
         - supporto.html
         - form.html
         - styles.css :
+                - style.css
                 - index.css
                 - supporto.css
