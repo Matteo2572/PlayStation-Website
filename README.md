@@ -1,10 +1,11 @@
 PlayStation Static Website Project
 
-Pages:
-        - index.html
+1)index.html
+
+2)Pages:
         - supporto.html
         - form.html
-        - styles.css :
-                - style.css
-                - index.css
-                - supporto.css
+3)Styles 
+        - style.css 
+        - index.css
+        - supporto.css
