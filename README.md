@@ -1,14 +1,8 @@
-# PlayStation-Website
+PlayStation Website Project
 
-PAGINA 'index.html': Matteo
-        'form.html'
-        'matteo.css': Matteo
-
-SEZIONI SVOLTE: navbar - caroselli - bottoni
-
-////////////////////////////////////////////////
-
-PAGINA 'paginaSupporto.html': Mattia
-        'mattia.css': Mattia
-
-SEZIONI SVOLTE: footer
+Pages:
+        - index.html
+        - supporto.html
+        - styles.css :
+                - index.css
+                - supporto.css
